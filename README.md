@@ -1,6 +1,5 @@
 # Project Matsyota: Autonomous Aquatic Swarm for Fish Feed Dispersion
 
-**Lead Architect:** Uday Gopan, PES University  
 **Domain:** Multi-Agent Coverage Path Planning (mCPP), Distributed Systems, Autonomous Surface Vessels (ASVs).
 
 ## 1. System Architecture
