@@ -1,0 +1,103 @@
+[0.010s] Invoking command in '/home/venator/matsyota/build/matsyota_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/venator/matsyota/build/matsyota_simulator -- -j6 -l6
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.157s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.163s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.200s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.201s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.283s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.339s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.359s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.360s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.363s] -- Searching for dependencies of ignition-math6
+[0.364s] -- Looking for OGRE...
+[0.368s] -- Found Ogre Ghadamon (1.9.0)
+[0.368s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.376s] -- Looking for OGRE_Paging...
+[0.376s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.376s] -- Looking for OGRE_Terrain...
+[0.376s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.376s] -- Looking for OGRE_Property...
+[0.376s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.376s] -- Looking for OGRE_RTShaderSystem...
+[0.376s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.376s] -- Looking for OGRE_Volume...
+[0.376s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.376s] -- Looking for OGRE_Overlay...
+[0.377s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.491s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.491s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.491s] -- Searching for dependencies of ignition-transport8
+[0.507s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.517s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.521s] -- Checking for module 'libzmq >= 4'
+[0.532s] --   Found libzmq , version 4.3.4
+[0.560s] -- Checking for module 'uuid'
+[0.571s] --   Found uuid, version 2.37.2
+[0.593s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.593s] -- Searching for dependencies of ignition-msgs5
+[0.610s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.614s] -- Checking for module 'tinyxml2'
+[0.625s] --   Found tinyxml2, version 9.0.0
+[0.649s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.649s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.649s] -- Searching for dependencies of ignition-common3
+[0.649s] -- Looking for dlfcn.h - found
+[0.649s] -- Looking for libdl - found
+[0.660s] -- Searching for <ignition-common3> component [graphics]
+[0.660s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.661s] -- Searching for dependencies of ignition-common3-graphics
+[0.661s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.662s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.662s] -- Searching for dependencies of ignition-fuel_tools4
+[0.693s] -- Checking for module 'jsoncpp'
+[0.704s] --   Found jsoncpp, version 1.9.5
+[0.734s] -- Checking for module 'libzip'
+[0.744s] --   Found libzip, version 1.7.3
+[0.767s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.767s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.767s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.768s] -- Gazebo version: 11.10
+[0.769s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.780s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.781s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.866s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.866s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.923s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.923s] -- Added test 'lint_cmake' to check CMake code style
+[0.924s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.924s] -- Added test 'xmllint' to check XML markup files
+[0.925s] -- Configuring done
+[0.929s] -- Generating done
+[0.932s] -- Build files have been written to: /home/venator/matsyota/build/matsyota_simulator
+[0.956s] Invoked command in '/home/venator/matsyota/build/matsyota_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/venator/matsyota/build/matsyota_simulator -- -j6 -l6
+[0.964s] Invoking command in '/home/venator/matsyota/build/matsyota_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/venator/matsyota/build/matsyota_simulator
+[0.971s] -- Install configuration: ""
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/launch
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/launch/swarm.launch.py
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/launch/master.launch.py
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/urdf
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/urdf/asv.urdf.xacro
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/worlds
+[0.971s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/worlds/empty_water.world
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/config
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/ament_index/resource_index/package_run_dependencies/matsyota_simulator
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/ament_index/resource_index/parent_prefix_path/matsyota_simulator
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/ament_prefix_path.sh
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/ament_prefix_path.dsv
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/path.sh
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/path.dsv
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.bash
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.sh
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.zsh
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.dsv
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.dsv
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/ament_index/resource_index/packages/matsyota_simulator
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/cmake/matsyota_simulatorConfig.cmake
+[0.972s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/cmake/matsyota_simulatorConfig-version.cmake
+[0.972s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.xml
+[0.973s] Invoked command in '/home/venator/matsyota/build/matsyota_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/venator/matsyota/build/matsyota_simulator

@@ -1,0 +1,6 @@
+source;share/matsyota_agent/hook/pythonpath.ps1
+source;share/matsyota_agent/hook/pythonpath.dsv
+source;share/matsyota_agent/hook/pythonpath.sh
+source;share/matsyota_agent/hook/ament_prefix_path.ps1
+source;share/matsyota_agent/hook/ament_prefix_path.dsv
+source;share/matsyota_agent/hook/ament_prefix_path.sh

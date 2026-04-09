@@ -21,6 +21,8 @@ class MatsyotaCommander(Node):
         self.publishers_dict = {}  
         self.assigned_territories = {} # Memory of current active tasks
         
+        self.initial_partition_done = False
+        
         # --- Legacy Task Queue (The "Debt" Registry) ---
         # Stores tuples: (Shapely Polygon, Point32 last_known_pos)
         self.legacy_tasks = []
@@ -59,6 +61,7 @@ class MatsyotaCommander(Node):
                 legacy_poly, restart_pt = self.legacy_tasks.pop(0)
                 self.get_logger().warn(f"Reassigning legacy task to {agent_id}!")
                 self.dispatch_territory(agent_id, legacy_poly, restart_pt)
+                self.assigned_territories[agent_id] = legacy_poly
 
     def commander_loop(self):
         now = self.get_clock().now().nanoseconds / 1e9
@@ -87,7 +90,7 @@ class MatsyotaCommander(Node):
                 active_positions.append(self.agent_positions[agent_id])
 
         # 2. Initial Partitioning (Only runs if unassigned agents exist)
-        if not active_agents:
+        if self.initial_partition_done or not active_agents:
             return
 
         if len(active_agents) < 3:
@@ -112,6 +115,7 @@ class MatsyotaCommander(Node):
                         # For initial dispatch, restart_pt is None (start from current pos)
                         self.dispatch_territory(agent_id, final_poly, None)
                         self.assigned_territories[agent_id] = final_poly
+            self.initial_partition_done = True
                     
         except Exception as e:
             self.get_logger().error(f"Voronoi Failure: {e}")

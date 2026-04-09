@@ -78,11 +78,16 @@ class ASVDriver(Node):
                 for ls in intersection.geoms:
                     segments.append(list(ls.coords))
             
+            # Sort segments from left to right to ensure deterministic ordering
+            segments.sort(key=lambda s: min(p[0] for p in s))
+            
             # For each segment, sort for 'S-curve' Boustrophedon
             for seg in segments:
                 # Reverse every other line to create back-and-forth motion
                 if i % 2 != 0:
-                    seg.reverse()
+                    seg.sort(key=lambda p: p[0], reverse=True)
+                else:
+                    seg.sort(key=lambda p: p[0])
                 waypoints.extend(seg)
                 
         return waypoints

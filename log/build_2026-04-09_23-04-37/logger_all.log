@@ -1,0 +1,186 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'matsyota_simulator']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['matsyota_simulator'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72ee8296e9b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72ee82af3520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72ee82af3520>>, mixin_verb=('build',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/venator/matsyota'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/build) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/build) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/install) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/install) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/log) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_agent) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'matsyota_ws/src/matsyota_agent' with type 'ros.ament_python' and name 'matsyota_agent'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_controller) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'matsyota_ws/src/matsyota_controller' with type 'ros.ament_python' and name 'matsyota_controller'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(matsyota_ws/src/matsyota_simulator) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'matsyota_ws/src/matsyota_simulator' with type 'ros.ament_cmake' and name 'matsyota_simulator'
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.260s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'matsyota_agent' in 'matsyota_ws/src/matsyota_agent'
+[0.260s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'matsyota_controller' in 'matsyota_ws/src/matsyota_controller'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/venator/matsyota/install
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/venator/turtlebot3_ws/install
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/venator/matsyota/matsyota_ws/install
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 423 installed packages in /opt/ros/humble
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'matsyota_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'matsyota_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/venator/matsyota/build/matsyota_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/venator/matsyota/install/matsyota_simulator', 'merge_install': False, 'path': '/home/venator/matsyota/matsyota_ws/src/matsyota_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/venator/matsyota/matsyota_ws/src/matsyota_simulator' with build type 'ament_cmake'
+[0.303s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/venator/matsyota/matsyota_ws/src/matsyota_simulator'
+[0.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venator/matsyota/build/matsyota_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/venator/matsyota/build/matsyota_simulator -- -j6 -l6
+[1.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venator/matsyota/build/matsyota_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/venator/matsyota/build/matsyota_simulator -- -j6 -l6
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/venator/matsyota/build/matsyota_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/venator/matsyota/build/matsyota_simulator
+[1.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(matsyota_simulator)
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/venator/matsyota/build/matsyota_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/matsyota/install/matsyota_controller:/home/venator/matsyota/install/matsyota_agent:/home/venator/matsyota/matsyota_ws/install/matsyota_controller:/home/venator/matsyota/matsyota_ws/install/matsyota_agent:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/venator/matsyota/build/matsyota_simulator
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator' for CMake module files
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator' for CMake config files
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('matsyota_simulator', 'cmake_prefix_path')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/hook/cmake_prefix_path.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/hook/cmake_prefix_path.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/hook/cmake_prefix_path.sh'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/bin'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/lib/pkgconfig/matsyota_simulator.pc'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/lib/python3.10/site-packages'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/bin'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.sh'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.bash'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.zsh'
+[1.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venator/matsyota/install/matsyota_simulator/share/colcon-core/packages/matsyota_simulator)
+[1.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(matsyota_simulator)
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator' for CMake module files
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator' for CMake config files
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('matsyota_simulator', 'cmake_prefix_path')
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/hook/cmake_prefix_path.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/hook/cmake_prefix_path.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/hook/cmake_prefix_path.sh'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/bin'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/lib/pkgconfig/matsyota_simulator.pc'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/lib/python3.10/site-packages'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/venator/matsyota/install/matsyota_simulator/bin'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.sh'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.bash'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.zsh'
+[1.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/venator/matsyota/install/matsyota_simulator/share/colcon-core/packages/matsyota_simulator)
+[1.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.286s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.290s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.300s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venator/matsyota/install/local_setup.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/venator/matsyota/install/_local_setup_util_ps1.py'
+[1.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venator/matsyota/install/setup.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venator/matsyota/install/local_setup.sh'
+[1.305s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/venator/matsyota/install/_local_setup_util_sh.py'
+[1.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venator/matsyota/install/setup.sh'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venator/matsyota/install/local_setup.bash'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venator/matsyota/install/setup.bash'
+[1.308s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/venator/matsyota/install/local_setup.zsh'
+[1.309s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/venator/matsyota/install/setup.zsh'

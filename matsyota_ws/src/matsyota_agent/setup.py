@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'asv_driver = matsyota_agent.asv_driver:main',
         ],
     },
 )

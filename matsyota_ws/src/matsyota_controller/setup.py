@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'matsyota_commander = matsyota_controller.matsyota_commander:main',
+            'feed_dispersion_mapper = matsyota_controller.feed_dispersion_mapper:main',
         ],
     },
 )

@@ -1,0 +1,1 @@
+rclcpp;gazebo_ros;robot_state_publisher;xacro;rclpy;geometry_msgs;nav_msgs;sensor_msgs;std_msgs;python3-numpy;python3-scipy;python3-shapely;ament_lint_auto;ament_lint_common
