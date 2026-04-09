@@ -67,4 +67,28 @@ Matsyota bypasses complex consensus graphs by using a **Centralized Debt Registr
 - [x] Construct the Master Orchestration Launch File (`master.launch.py`).
 - [x] Implemented package entry points and `CMakeLists.txt` installations.
 - [x] Confirmed the Legacy Task Handshake and Boustrophedon sweep algorithms.
+
+---
+
+## 6. How to Run
+
+1. Navigate to the ROS workspace:
+   ```bash
+   cd matsyota_ws
+   ```
+
+2. Build the workspace dependencies and packages:
+   ```bash
+   colcon build
+   ```
+
+3. Source the locally built environment configurations:
+   ```bash
+   source install/setup.bash
+   ```
+
+4. Launch the master orchestration file (launches Gazebo, RViz, ASVs, and Commander):
+   ```bash
+   ros2 launch matsyota_simulator master.launch.py
+   ```
 - [ ] Tune PD Gains for high-speed aquatic maneuvers.
