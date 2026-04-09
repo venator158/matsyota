@@ -1,0 +1,16 @@
+[0.806s] Invoking command in '/home/venator/matsyota/matsyota_ws/build/matsyota_agent': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_agent/build --no-deps symlink_data
+[1.009s] running develop
+[1.149s] running egg_info
+[1.149s] writing matsyota_agent.egg-info/PKG-INFO
+[1.149s] writing dependency_links to matsyota_agent.egg-info/dependency_links.txt
+[1.149s] writing entry points to matsyota_agent.egg-info/entry_points.txt
+[1.149s] writing requirements to matsyota_agent.egg-info/requires.txt
+[1.149s] writing top-level names to matsyota_agent.egg-info/top_level.txt
+[1.151s] reading manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[1.151s] writing manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[1.152s] running build_ext
+[1.152s] Creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages/matsyota-agent.egg-link (link to .)
+[1.153s] 
+[1.153s] Installed /home/venator/matsyota/matsyota_ws/build/matsyota_agent
+[1.154s] running symlink_data
+[1.180s] Invoked command in '/home/venator/matsyota/matsyota_ws/build/matsyota_agent' returned '0': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_agent/build --no-deps symlink_data

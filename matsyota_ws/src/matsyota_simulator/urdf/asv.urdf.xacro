@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<robot name="matsyota_asv" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:arg name="namespace" default="asv"/>
+
+  <link name="$(arg namespace)/base_link">
+    <visual>
+      <geometry>
+        <box size="0.6 0.3 0.15"/>
+      </geometry>
+      <material name="white">
+        <color rgba="0.9 0.9 0.9 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.6 0.3 0.15"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.0"/>
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.06" iyz="0.0" izz="0.08"/>
+    </inertial>
+  </link>
+
+  <gazebo reference="$(arg namespace)/base_link">
+    <gravity>0</gravity>
+    <material>Gazebo/White</material>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="planar_move" filename="libgazebo_ros_planar_move.so">
+      <ros>
+        <namespace>/$(arg namespace)</namespace>
+        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>odom:=odom</remapping>
+      </ros>
+      <update_rate>50.0</update_rate>
+      <publish_rate>50.0</publish_rate>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <robot_base_frame>$(arg namespace)/base_link</robot_base_frame>
+      <odometry_frame>$(arg namespace)/odom</odometry_frame>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="$(arg namespace)/base_link">
+    <sensor name="gps_sensor" type="gps">
+      <always_on>true</always_on>
+      <update_rate>10.0</update_rate>
+      <plugin name="gps_plugin" filename="libgazebo_ros_gps_sensor.so">
+        <ros>
+          <namespace>/$(arg namespace)</namespace>
+          <remapping>~/out:=gps/fix</remapping>
+        </ros>
+        <frame_name>$(arg namespace)/base_link</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>

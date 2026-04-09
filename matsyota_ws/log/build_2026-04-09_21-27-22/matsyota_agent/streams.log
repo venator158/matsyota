@@ -1,0 +1,25 @@
+[0.487s] Invoking command in '/home/venator/matsyota/matsyota_ws/build/matsyota_agent': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_agent/build --no-deps symlink_data
+[0.676s] running develop
+[0.811s] running egg_info
+[0.811s] creating matsyota_agent.egg-info
+[0.811s] writing matsyota_agent.egg-info/PKG-INFO
+[0.811s] writing dependency_links to matsyota_agent.egg-info/dependency_links.txt
+[0.811s] writing entry points to matsyota_agent.egg-info/entry_points.txt
+[0.811s] writing requirements to matsyota_agent.egg-info/requires.txt
+[0.811s] writing top-level names to matsyota_agent.egg-info/top_level.txt
+[0.811s] writing manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[0.812s] reading manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[0.813s] writing manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[0.814s] running build_ext
+[0.814s] Creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages/matsyota-agent.egg-link (link to .)
+[0.814s] 
+[0.815s] Installed /home/venator/matsyota/matsyota_ws/build/matsyota_agent
+[0.815s] running symlink_data
+[0.815s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share
+[0.815s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share/ament_index
+[0.815s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share/ament_index/resource_index
+[0.815s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share/ament_index/resource_index/packages
+[0.815s] symbolically linking /home/venator/matsyota/matsyota_ws/build/matsyota_agent/resource/matsyota_agent -> /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share/ament_index/resource_index/packages
+[0.815s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share/matsyota_agent
+[0.815s] symbolically linking /home/venator/matsyota/matsyota_ws/build/matsyota_agent/package.xml -> /home/venator/matsyota/matsyota_ws/install/matsyota_agent/share/matsyota_agent
+[0.837s] Invoked command in '/home/venator/matsyota/matsyota_ws/build/matsyota_agent' returned '0': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_agent/build --no-deps symlink_data
