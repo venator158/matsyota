@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing matsyota_controller.egg-info/PKG-INFO
+writing dependency_links to matsyota_controller.egg-info/dependency_links.txt
+writing entry points to matsyota_controller.egg-info/entry_points.txt
+writing requirements to matsyota_controller.egg-info/requires.txt
+writing top-level names to matsyota_controller.egg-info/top_level.txt
+reading manifest file 'matsyota_controller.egg-info/SOURCES.txt'
+writing manifest file 'matsyota_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota-controller.egg-link (link to .)
+Installing feed_dispersion_mapper script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+Installing matsyota_commander script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+
+Installed /home/venator/matsyota/matsyota_ws/build/matsyota_controller
+running symlink_data

@@ -1,0 +1,17 @@
+[0.681s] Invoking command in '/home/venator/matsyota/matsyota_ws/build/matsyota_agent': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_agent/build --no-deps symlink_data
+[0.866s] running develop
+[0.995s] running egg_info
+[0.996s] writing matsyota_agent.egg-info/PKG-INFO
+[0.996s] writing dependency_links to matsyota_agent.egg-info/dependency_links.txt
+[0.996s] writing entry points to matsyota_agent.egg-info/entry_points.txt
+[0.996s] writing requirements to matsyota_agent.egg-info/requires.txt
+[0.996s] writing top-level names to matsyota_agent.egg-info/top_level.txt
+[0.997s] reading manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[0.997s] writing manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+[0.998s] running build_ext
+[0.998s] Creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages/matsyota-agent.egg-link (link to .)
+[0.999s] Installing asv_driver script to /home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/matsyota_agent
+[0.999s] 
+[0.999s] Installed /home/venator/matsyota/matsyota_ws/build/matsyota_agent
+[0.999s] running symlink_data
+[1.033s] Invoked command in '/home/venator/matsyota/matsyota_ws/build/matsyota_agent' returned '0': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_agent/build --no-deps symlink_data

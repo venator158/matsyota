@@ -14,10 +14,7 @@ def generate_launch_description():
     urdf_file = os.path.join(pkg_simulator, 'urdf', 'asv.urdf.xacro')
     world_file = os.path.join(pkg_simulator, 'worlds', 'empty_water.world')
     
-    # Run xacro to generate the robot description
     import xacro
-    doc = xacro.process_file(urdf_file)
-    robot_desc = doc.toprettyxml(indent='  ')
 
     ld = LaunchDescription()
 
@@ -39,9 +36,18 @@ def generate_launch_description():
     )
     ld.add_action(rviz_node)
 
+    # Broadcast static transform from 'map' to 'odom'
+    static_tf_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='map_to_odom',
+        arguments=['--x', '0', '--y', '0', '--z', '0', '--yaw', '0', '--pitch', '0', '--roll', '0', '--frame-id', 'map', '--child-frame-id', 'odom']
+    )
+    ld.add_action(static_tf_node)
+
     # Global Nodes: commander and mapper
     commander_node = Node(
-        package='matsyota_controller',  # Assuming it's in this package
+        package='matsyota_controller', 
         executable='matsyota_commander',
         name='matsyota_commander',
         output='screen'
@@ -60,6 +66,10 @@ def generate_launch_description():
     for i in range(FLEET_SIZE):
         namespace = f'asv_{i}'
         
+        # Run xacro WITH the unique namespace mappings
+        doc = xacro.process_file(urdf_file, mappings={'namespace': namespace})
+        robot_desc = doc.toprettyxml(indent='  ')
+
         # Determine collision-safe coordinates (grid layout)
         x_pos = float((i % 2) * 3.0) - 1.5
         y_pos = float((i // 2) * 3.0) - 1.5

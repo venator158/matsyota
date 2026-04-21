@@ -1,0 +1,21 @@
+[0.732s] Invoking command in '/home/venator/matsyota/matsyota_ws/src/matsyota_agent': PYTHONPATH=/home/venator/matsyota/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/matsyota_agent build --build-base /home/venator/matsyota/build/matsyota_agent/build install --record /home/venator/matsyota/build/matsyota_agent/install.log --single-version-externally-managed install_data
+[0.925s] running egg_info
+[0.926s] writing ../../../build/matsyota_agent/matsyota_agent.egg-info/PKG-INFO
+[0.926s] writing dependency_links to ../../../build/matsyota_agent/matsyota_agent.egg-info/dependency_links.txt
+[0.926s] writing entry points to ../../../build/matsyota_agent/matsyota_agent.egg-info/entry_points.txt
+[0.926s] writing requirements to ../../../build/matsyota_agent/matsyota_agent.egg-info/requires.txt
+[0.926s] writing top-level names to ../../../build/matsyota_agent/matsyota_agent.egg-info/top_level.txt
+[0.927s] reading manifest file '../../../build/matsyota_agent/matsyota_agent.egg-info/SOURCES.txt'
+[0.929s] writing manifest file '../../../build/matsyota_agent/matsyota_agent.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.930s] running install
+[0.930s] running install_lib
+[0.931s] running install_data
+[0.931s] running install_egg_info
+[0.932s] removing '/home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent-0.0.0-py3.10.egg-info' (and everything under it)
+[0.932s] Copying ../../../build/matsyota_agent/matsyota_agent.egg-info to /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.951s] Installing asv_driver script to /home/venator/matsyota/install/matsyota_agent/lib/matsyota_agent
+[0.951s] writing list of installed files to '/home/venator/matsyota/build/matsyota_agent/install.log'
+[0.982s] Invoked command in '/home/venator/matsyota/matsyota_ws/src/matsyota_agent' returned '0': PYTHONPATH=/home/venator/matsyota/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/matsyota_agent build --build-base /home/venator/matsyota/build/matsyota_agent/build install --record /home/venator/matsyota/build/matsyota_agent/install.log --single-version-externally-managed install_data

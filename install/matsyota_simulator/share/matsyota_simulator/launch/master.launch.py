@@ -39,9 +39,18 @@ def generate_launch_description():
     )
     ld.add_action(rviz_node)
 
+    # Broadcast static transform from 'map' to 'odom'
+    static_tf_node = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='map_to_odom',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom']
+    )
+    ld.add_action(static_tf_node)
+
     # Global Nodes: commander and mapper
     commander_node = Node(
-        package='matsyota_controller',  # Assuming it's in this package
+        package='matsyota_controller', 
         executable='matsyota_commander',
         name='matsyota_commander',
         output='screen'

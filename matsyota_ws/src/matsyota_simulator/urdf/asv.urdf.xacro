@@ -3,6 +3,15 @@
 
   <xacro:arg name="namespace" default="asv"/>
 
+  <!-- Dummy root link to avoid KDL inertia error -->
+  <link name="$(arg namespace)/base_footprint" />
+
+  <joint name="$(arg namespace)/base_joint" type="fixed">
+    <parent link="$(arg namespace)/base_footprint" />
+    <child link="$(arg namespace)/base_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+
   <link name="$(arg namespace)/base_link">
     <visual>
       <geometry>

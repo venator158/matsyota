@@ -1,0 +1,32 @@
+[0.875s] Invoking command in '/home/venator/matsyota/matsyota_ws/src/matsyota_agent': PYTHONPATH=/home/venator/matsyota/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/matsyota_agent build --build-base /home/venator/matsyota/build/matsyota_agent/build install --record /home/venator/matsyota/build/matsyota_agent/install.log --single-version-externally-managed install_data
+[1.068s] running egg_info
+[1.068s] creating ../../../build/matsyota_agent/matsyota_agent.egg-info
+[1.068s] writing ../../../build/matsyota_agent/matsyota_agent.egg-info/PKG-INFO
+[1.068s] writing dependency_links to ../../../build/matsyota_agent/matsyota_agent.egg-info/dependency_links.txt
+[1.068s] writing entry points to ../../../build/matsyota_agent/matsyota_agent.egg-info/entry_points.txt
+[1.068s] writing requirements to ../../../build/matsyota_agent/matsyota_agent.egg-info/requires.txt
+[1.068s] writing top-level names to ../../../build/matsyota_agent/matsyota_agent.egg-info/top_level.txt
+[1.068s] writing manifest file '../../../build/matsyota_agent/matsyota_agent.egg-info/SOURCES.txt'
+[1.069s] reading manifest file '../../../build/matsyota_agent/matsyota_agent.egg-info/SOURCES.txt'
+[1.069s] writing manifest file '../../../build/matsyota_agent/matsyota_agent.egg-info/SOURCES.txt'
+[1.069s] running build
+[1.069s] running build_py
+[1.069s] creating /home/venator/matsyota/build/matsyota_agent/build
+[1.070s] creating /home/venator/matsyota/build/matsyota_agent/build/lib
+[1.070s] creating /home/venator/matsyota/build/matsyota_agent/build/lib/matsyota_agent
+[1.070s] copying matsyota_agent/__init__.py -> /home/venator/matsyota/build/matsyota_agent/build/lib/matsyota_agent
+[1.072s] copying matsyota_agent/asv_driver.py -> /home/venator/matsyota/build/matsyota_agent/build/lib/matsyota_agent
+[1.072s] running install
+[1.072s] running install_lib
+[1.072s] creating /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent
+[1.072s] copying /home/venator/matsyota/build/matsyota_agent/build/lib/matsyota_agent/__init__.py -> /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent
+[1.072s] copying /home/venator/matsyota/build/matsyota_agent/build/lib/matsyota_agent/asv_driver.py -> /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent
+[1.072s] byte-compiling /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent/__init__.py to __init__.cpython-310.pyc
+[1.072s] byte-compiling /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent/asv_driver.py to asv_driver.cpython-310.pyc
+[1.073s] running install_data
+[1.073s] running install_egg_info
+[1.074s] Copying ../../../build/matsyota_agent/matsyota_agent.egg-info to /home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages/matsyota_agent-0.0.0-py3.10.egg-info
+[1.075s] running install_scripts
+[1.095s] Installing asv_driver script to /home/venator/matsyota/install/matsyota_agent/lib/matsyota_agent
+[1.095s] writing list of installed files to '/home/venator/matsyota/build/matsyota_agent/install.log'
+[1.115s] Invoked command in '/home/venator/matsyota/matsyota_ws/src/matsyota_agent' returned '0': PYTHONPATH=/home/venator/matsyota/build/matsyota_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/install/matsyota_agent/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/matsyota_agent build --build-base /home/venator/matsyota/build/matsyota_agent/build install --record /home/venator/matsyota/build/matsyota_agent/install.log --single-version-externally-managed install_data

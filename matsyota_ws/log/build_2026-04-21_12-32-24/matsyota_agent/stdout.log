@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing matsyota_agent.egg-info/PKG-INFO
+writing dependency_links to matsyota_agent.egg-info/dependency_links.txt
+writing entry points to matsyota_agent.egg-info/entry_points.txt
+writing requirements to matsyota_agent.egg-info/requires.txt
+writing top-level names to matsyota_agent.egg-info/top_level.txt
+reading manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+writing manifest file 'matsyota_agent.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/python3.10/site-packages/matsyota-agent.egg-link (link to .)
+Installing asv_driver script to /home/venator/matsyota/matsyota_ws/install/matsyota_agent/lib/matsyota_agent
+
+Installed /home/venator/matsyota/matsyota_ws/build/matsyota_agent
+running symlink_data

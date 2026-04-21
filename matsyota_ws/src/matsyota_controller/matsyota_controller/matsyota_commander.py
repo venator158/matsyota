@@ -23,7 +23,6 @@ class MatsyotaCommander(Node):
         
         self.initial_partition_done = False
         
-        # --- Legacy Task Queue (The "Debt" Registry) ---
         # Stores tuples: (Shapely Polygon, Point32 last_known_pos)
         self.legacy_tasks = []
 

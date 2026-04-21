@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/matsyota_controller/matsyota_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/matsyota_controller/matsyota_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/matsyota_controller/matsyota_controller.egg-info/entry_points.txt
+writing requirements to ../../build/matsyota_controller/matsyota_controller.egg-info/requires.txt
+writing top-level names to ../../build/matsyota_controller/matsyota_controller.egg-info/top_level.txt
+reading manifest file '../../build/matsyota_controller/matsyota_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/matsyota_controller/matsyota_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying matsyota_controller/feed_dispersion_mapper.py -> /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build/lib/matsyota_controller
+running install
+running install_lib
+copying /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build/lib/matsyota_controller/feed_dispersion_mapper.py -> /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller
+byte-compiling /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller/feed_dispersion_mapper.py to feed_dispersion_mapper.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/matsyota_controller/matsyota_controller.egg-info to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing feed_dispersion_mapper script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+Installing matsyota_commander script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+writing list of installed files to '/home/venator/matsyota/matsyota_ws/build/matsyota_controller/install.log'

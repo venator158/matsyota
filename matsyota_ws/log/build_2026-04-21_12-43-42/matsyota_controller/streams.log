@@ -1,0 +1,25 @@
+[0.675s] Invoking command in '/home/venator/matsyota/matsyota_ws/src/matsyota_controller': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/matsyota_controller build --build-base /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build install --record /home/venator/matsyota/matsyota_ws/build/matsyota_controller/install.log --single-version-externally-managed install_data
+[0.853s] running egg_info
+[0.854s] writing ../../build/matsyota_controller/matsyota_controller.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/matsyota_controller/matsyota_controller.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../../build/matsyota_controller/matsyota_controller.egg-info/entry_points.txt
+[0.854s] writing requirements to ../../build/matsyota_controller/matsyota_controller.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/matsyota_controller/matsyota_controller.egg-info/top_level.txt
+[0.855s] reading manifest file '../../build/matsyota_controller/matsyota_controller.egg-info/SOURCES.txt'
+[0.856s] writing manifest file '../../build/matsyota_controller/matsyota_controller.egg-info/SOURCES.txt'
+[0.856s] running build
+[0.856s] running build_py
+[0.856s] copying matsyota_controller/feed_dispersion_mapper.py -> /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build/lib/matsyota_controller
+[0.856s] running install
+[0.856s] running install_lib
+[0.857s] copying /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build/lib/matsyota_controller/feed_dispersion_mapper.py -> /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller
+[0.857s] byte-compiling /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller/feed_dispersion_mapper.py to feed_dispersion_mapper.cpython-310.pyc
+[0.858s] running install_data
+[0.858s] running install_egg_info
+[0.859s] removing '/home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.859s] Copying ../../build/matsyota_controller/matsyota_controller.egg-info to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota_controller-0.0.0-py3.10.egg-info
+[0.860s] running install_scripts
+[0.875s] Installing feed_dispersion_mapper script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+[0.875s] Installing matsyota_commander script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+[0.875s] writing list of installed files to '/home/venator/matsyota/matsyota_ws/build/matsyota_controller/install.log'
+[0.900s] Invoked command in '/home/venator/matsyota/matsyota_ws/src/matsyota_controller' returned '0': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/matsyota_controller build --build-base /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build install --record /home/venator/matsyota/matsyota_ws/build/matsyota_controller/install.log --single-version-externally-managed install_data

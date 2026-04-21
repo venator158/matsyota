@@ -1,0 +1,28 @@
+[0.399s] Invoking command in '/home/venator/matsyota/build/matsyota_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/venator/matsyota/build/matsyota_simulator -- -j6 -l6
+[0.435s] Invoked command in '/home/venator/matsyota/build/matsyota_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/venator/matsyota/build/matsyota_simulator -- -j6 -l6
+[0.444s] Invoking command in '/home/venator/matsyota/build/matsyota_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/venator/matsyota/build/matsyota_simulator
+[0.451s] -- Install configuration: ""
+[0.451s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/launch
+[0.453s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/launch/swarm.launch.py
+[0.453s] -- Installing: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/launch/master.launch.py
+[0.453s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/urdf
+[0.453s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/urdf/asv.urdf.xacro
+[0.453s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/worlds
+[0.453s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/worlds/empty_water.world
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/config
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/ament_index/resource_index/package_run_dependencies/matsyota_simulator
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/ament_index/resource_index/parent_prefix_path/matsyota_simulator
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/ament_prefix_path.sh
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/ament_prefix_path.dsv
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/path.sh
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/environment/path.dsv
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.bash
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.sh
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.zsh
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/local_setup.dsv
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.dsv
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/ament_index/resource_index/packages/matsyota_simulator
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/cmake/matsyota_simulatorConfig.cmake
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/cmake/matsyota_simulatorConfig-version.cmake
+[0.454s] -- Up-to-date: /home/venator/matsyota/install/matsyota_simulator/share/matsyota_simulator/package.xml
+[0.455s] Invoked command in '/home/venator/matsyota/build/matsyota_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/venator/turtlebot3_ws/install/turtlebot3_teleop:/home/venator/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/venator/matsyota/build/matsyota_simulator

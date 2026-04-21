@@ -1,0 +1,25 @@
+[0.686s] Invoking command in '/home/venator/matsyota/matsyota_ws/build/matsyota_controller': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build --no-deps symlink_data
+[0.872s] running develop
+[1.001s] running egg_info
+[1.002s] creating matsyota_controller.egg-info
+[1.002s] writing matsyota_controller.egg-info/PKG-INFO
+[1.002s] writing dependency_links to matsyota_controller.egg-info/dependency_links.txt
+[1.002s] writing entry points to matsyota_controller.egg-info/entry_points.txt
+[1.002s] writing requirements to matsyota_controller.egg-info/requires.txt
+[1.002s] writing top-level names to matsyota_controller.egg-info/top_level.txt
+[1.002s] writing manifest file 'matsyota_controller.egg-info/SOURCES.txt'
+[1.003s] reading manifest file 'matsyota_controller.egg-info/SOURCES.txt'
+[1.004s] writing manifest file 'matsyota_controller.egg-info/SOURCES.txt'
+[1.005s] running build_ext
+[1.005s] Creating /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages/matsyota-controller.egg-link (link to .)
+[1.005s] Installing feed_dispersion_mapper script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+[1.005s] Installing matsyota_commander script to /home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/matsyota_controller
+[1.006s] 
+[1.006s] Installed /home/venator/matsyota/matsyota_ws/build/matsyota_controller
+[1.006s] running symlink_data
+[1.006s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_controller/share/ament_index
+[1.006s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_controller/share/ament_index/resource_index
+[1.006s] creating /home/venator/matsyota/matsyota_ws/install/matsyota_controller/share/ament_index/resource_index/packages
+[1.006s] symbolically linking /home/venator/matsyota/matsyota_ws/build/matsyota_controller/resource/matsyota_controller -> /home/venator/matsyota/matsyota_ws/install/matsyota_controller/share/ament_index/resource_index/packages
+[1.006s] symbolically linking /home/venator/matsyota/matsyota_ws/build/matsyota_controller/package.xml -> /home/venator/matsyota/matsyota_ws/install/matsyota_controller/share/matsyota_controller
+[1.042s] Invoked command in '/home/venator/matsyota/matsyota_ws/build/matsyota_controller' returned '0': PYTHONPATH=/home/venator/matsyota/matsyota_ws/build/matsyota_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/venator/matsyota/matsyota_ws/install/matsyota_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/venator/matsyota/matsyota_ws/build/matsyota_controller/build --no-deps symlink_data
